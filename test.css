@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width:70%;
+    display: block;
+}
+body{
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    line-height: 1;
+    display: grid;
+    justify-content: center;
+}
+.bento-grid{
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(10,70px);
+    grid-template-areas:
+    "box1 box2 box2 box3"
+    "box1 box2 box2 box3"
+    "box1 box2 box2 box3"
+    "box1 box2 box2 box3"
+    "box1 box5 box6 box3"
+    "box4 box5 box6 box3"
+    "box4 box5 box6 box3"
+    "box4 box7 box8 box8"
+    "box4 box7 box8 box8"
+    "box4 box7 box8 box8";
+}
+.bento-grid div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+.box1{
+    background-color: #faeee2;
+    grid-area: box1;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+.box2{
+    background-color: #7651dc; color: white;
+    grid-area: box2;
+}
+.box3{
+    background-color: #dacffc;
+    grid-area: box3;
+}
+.box4{
+    background-color: #ffcb6b;
+    grid-area: box4;
+}
+.box5{
+    background-color: white;
+    grid-area: box5;
+}
+.box6{
+    background-color: #ffcb6b;
+    grid-area: box6;
+}
+.box7{
+    background-color: white;
+    grid-area: box7;
+}
+.box8{
+    background-color: #7651dc; color: white;
+    grid-area: box8;
+}
+.box1-creat{
+    margin-top: 20%;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box1 em{
+    color: #7651dc;
+}
+.box1-img{
+    width: 80%;
+}
+.box2-text{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.box2 span{
+    color: #ffcb6b;
+}
+.box2-img{
+    margin-top: 6%;
+    width: 40%;
+}
+.rating{
+    margin-top: 5%;
+}
