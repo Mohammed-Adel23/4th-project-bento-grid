@@ -56,6 +56,10 @@ body{
 .box3{
     background-color: #dacffc;
     grid-area: box3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .box4{
     background-color: #ffcb6b;
@@ -103,4 +107,32 @@ body{
 }
 .rating{
     margin-top: 5%;
+}
+.box3-title{
+    font-size: 1.5rem;
+    width: 9.5rem;
+    font-weight: 550;
+    margin-top: 2%;
+}
+.box3-img{
+    width: 150%;
+    position: absolute;
+    top: 20%;
+    left: 22%;
+}
+.box3-disc{
+    margin-top: 145%;
+    width: 80%;
+    margin-left: 9%;
+}
+.box4-text{
+    font-size: 2.5rem;
+    width: 90%;
+    margin-top: 6%;
+    margin-left: 3%;
+    font-weight: 500;
+}
+.box4-img{
+    width: 90%;
+    margin-top: 20%;
 }
