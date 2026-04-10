@@ -155,12 +155,47 @@ body{
     width: 90%;
     margin-top: 20%;
 }
-.box5-img{
-    width: 110%;
+.platforms{
+    margin-top: 9%;
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    margin-left: 5%;
+}
+.first-plat{
+    display: flex;
+    gap: 4.5%;
+    flex: 1;
+}
+.insta-text{
+    font-size: 55%;
+    font-weight: 700;
+}
+.insta-icon{
+    margin-left: 3%;
+    border-radius: 50%;
+    padding: 5% 5%;
+    background-color: #ffcb6b;
+    width: 32%;
+}
+.sec-plat{
+    gap: 6%;
+    display: flex;
+    flex: 1;
+}
+.x-icon{
+    border-radius: 50%;
+    padding: 7% 7%;
+    background-color: #ffcb6b;
+    width: 32%;
+}
+.x-text{
+    font-size: 55%;
+    font-weight: 700;
 }
 .box5-text{
     font-size: 2.2rem;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-left: 6%;
     font-weight: 500;
 }
